@@ -272,9 +272,11 @@
   }   
    p {
     font-size: 16px;
+    color: #000;
   }  
    .heading {
     font-size: 20px;
+    color: rgba(0,1,0,0.8);
     margin-inline: 20px;
   }
 
@@ -345,3 +347,18 @@
     }
 
  }
+
+ @media screen and (min-width: 1900px){
+  body {
+     display: flex;
+     flex-direction: column;
+     overflow-x: hidden;
+
+     width: 1950px; 
+ }
+
+ .nav-links {
+     width: 40%;
+ }
+
+}
