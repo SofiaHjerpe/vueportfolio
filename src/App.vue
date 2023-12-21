@@ -5,7 +5,7 @@
       
       <div class="branding">
         <h1 class="logo">Sofia Hjerpe</h1>
-         <p class="logo-text"> Junior Frontend developer and UX/UI designer</p>
+         <p class="logo-text"> Junior Frontend developer</p>
      </div>
          
 <div>
