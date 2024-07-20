@@ -9,7 +9,7 @@
     }
     button {
       max-width: 150px;
-      background-color: rgba(138, 168, 142, 0.944);
+      background-color: #DD8371;
       align-self: flex-end;
       border: none;
       font-weight: 600;
@@ -33,6 +33,8 @@
      display: flex;
      justify-content: space-around;
      align-items: center;
+     position: fixed;
+     width: 100%;
      background-color: rgba(138, 168, 142, 0.944); 
      height: 75px;
    }
@@ -58,7 +60,7 @@
     list-style: none;
   }
  .nav-links a {
-    color:rgb(230, 230, 230);
+    color:#ecdfdd;
     letter-spacing: 3px;
     font-weight: 600;
     font-size: 14px;
@@ -78,7 +80,7 @@
      border-radius: 8px;
      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
      padding: 16px;
-     border-left: rgba(138, 168, 142, 0.944) solid 8px;
+     border-left: #DD8371 solid 8px;
      margin-bottom: 40px;
     }
    .list-wrap {
@@ -86,9 +88,13 @@
      flex-direction: row;
      font-family: 'Roboto';
     }
+
+    .the-welcome-text {
+      margin-top: -0.75rem;
+    }
     .image {
       width: 300px;
-      margin-top: 20px; 
+      margin-top: 7rem; 
       border-radius: 4px;
       margin-inline: 100px;
     }    
@@ -136,7 +142,7 @@
      margin-inline: 0 200px;
      background-color:#fff;
      border-radius: 8px;
-     border-left: rgba(138, 168, 142, 0.944) solid 8px;
+     border-left: #DD8371 solid 8px;
      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
      padding: 16px;
    }
@@ -148,7 +154,7 @@
     margin: 20px;
     letter-spacing: 3px;
     font-size: 18px;
-    color: rgba(0,1,0,0.8);
+    color: #DD8371;
     font-weight: 600; 
     margin-inline: 0 200px;
     font-family: 'Orienta', sans-serif;
@@ -205,7 +211,7 @@
    }
    .mobileN a{
     display: flex;
-    color: rgb(230, 230, 230);
+    color: #ecdfdd;
     margin: 100px;
     align-items: center;
     font-size: 12px;
@@ -217,7 +223,7 @@
     z-index: 9999;
     width: 25px;
     height: 3px;
-    background-color:rgb(230, 230, 230);
+    background-color: #ecdfdd;
     margin: 5px;
     border-radius: 4px; 
     transition: all 0.3s ease;
@@ -276,7 +282,7 @@
   }  
    .heading {
     font-size: 20px;
-    color: rgba(0,1,0,0.8);
+    color: #DD8371;
     margin-inline: 20px;
   }
 

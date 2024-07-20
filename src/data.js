@@ -74,15 +74,30 @@ import imgIns from "./assets/images/imgIns.jpg";
 import imgIns1 from "./assets/images/imgIns2.jpg";
 import imgIns3 from "./assets/images/InsCode.jpg";
 
-import posImg from "./assets/images/posImg.jpg";
-import posImg2 from "./assets/images/posImg2.jpg";
-import posImg3 from "./assets/images/posImg3.jpg";
-import posImg4 from "./assets/images/posImg4.jpg";
+import movImg from "./assets/images/moviecards1.jpg";
+import movImg2 from "./assets/images/moviecards2.jpg";
+import movImg3 from "./assets/images/moviecards3.jpg";
+import movImg4 from "./assets/images/moviecards4.jpg";
 
-import mimg from "./assets/images/mediaplayerimg.jpg";
-import mimg1 from "./assets/images/mediaplayerimg2.jpg";
-import mimg2 from "./assets/images/mediaplayerCode.jpg";
-import mimg3 from "./assets/images/mediaplayerCode1.jpg";
+import mimg from "./assets/images/plant1.jpg";
+import mimg1 from "./assets/images/plant2.jpg";
+import mimg2 from "./assets/images/pcode1.jpg";
+import mimg3 from "./assets/images/pcode2.jpg";
+
+import reactImg from "./assets/images/todoReact1.jpg";
+import reactImg1 from "./assets/images/todolist2.jpg";
+import reactImg2 from "./assets/images/todoListReact3.jpg";
+
+import radio1 from "./assets/images/radio1.jpg";
+import radio2 from "./assets/images/radio2.jpg";
+import radio3 from "./assets/images/radio3.jpg";
+import radio4 from "./assets/images/radio4.jpg";
+
+import sokoban from "./assets/images/sokoban.jpg"
+import sokoban1 from "./assets/images/sokoban1.jpg";
+import sokoban2 from "./assets/images/sokoban2.jpg";
+import sokoban3 from "./assets/images/sokoban3.jpg";
+
 
 export default {
   projects: [
@@ -249,8 +264,7 @@ export default {
       title: "Online store",
       description:
         "This is a Online store, OBS Not real. It is made in Vuejs and make it possible for the user to look at all the products together or one by one. The user can also buy a product. For font I use Lucida Sans. The app is adapted for mobile.",
-      languages:
-        "'Javascript','Vue.js', 'Components', 'params', 'Css', 'Objects', 'LocalStorage'",
+      languages: "'Javascript','Vue.js', 'Components', 'params', 'Css', 'Objects', 'LocalStorage'",
       plink: "https://github.com/SofiaHjerpe/onlinestore",
       imageOne: img1112,
       imageTwo: img1114,
@@ -274,8 +288,7 @@ export default {
       title: "Vue Blogg Api",
       description:
         "This is a front end application that gets the Api from C#. In this app I used fetch, a second fetch argument, I used types such as String and Datetime",
-      languages:
-        "'C# Web API', 'SQL Server Management Studio', 'SQL', '.Net', 'Vuejs', 'Fetch'",
+      languages: "'C# Web API', 'SQL Server Management Studio', 'SQL', '.Net', 'Vuejs', 'Fetch'",
       plink: "https://github.com/SofiaHjerpe/BloggApiApp",
       imageOne: im1,
       imageTwo: im2,
@@ -287,8 +300,7 @@ export default {
       title: "Vue Todo Api",
       description:
         "This is a front end application that gets the Api from C#. The Api code you can find at my github, the repository is called TodoWebApi. In this app I used fetch, I used types such as Boolean and Datetime. The user can watch all Todos, add a Todo, mark the Todo as Done and Delete the Todo.",
-      languages:
-        "'C# Web API', 'SQL Server Management Studio', 'SQL', '.Net', 'Vuejs', 'Fetch'",
+      languages: "'C# Web API', 'SQL Server Management Studio', 'SQL', '.Net', 'Vuejs', 'Fetch'",
       plink: "https://github.com/SofiaHjerpe/TodoApiApp",
       imageOne: im13,
       imageTwo: im12,
@@ -309,27 +321,67 @@ export default {
     },
     {
       id: 19,
-      title: "Poster shop- Lexicon",
+      title: "Movie Cards",
       description:
-        "This is a website where I have recreated an image of a website. The website is made width CSS flexbox. I have made one with CSS grid as well. To see the grid version visit my Github page.",
-      languages: "'CSS', 'Html', 'CSS Flexbox', 'CSS Grid'",
-      plink: "https://github.com/SofiaHjerpe/lexicon-poster-shop-flex",
-      imageOne: posImg,
-      imageTwo: posImg2,
-      imageThree: posImg3,
-      imageFour: posImg4,
+        "This is a website where you can add a movie card through a form. You can also delete the movie card by clicking on it.",
+      languages: "'CSS', 'Html', 'React', 'Props', 'useState', 'TypeScript'",
+      plink: "https://github.com/SofiaHjerpe/exercise-react-movie-cards",
+      imageOne: movImg,
+      imageTwo: movImg2,
+      imageThree: movImg3,
+      imageFour: movImg4,
     },
     {
       id: 20,
-      title: "Mediaplayer",
+      title: "Planned planthood",
       description:
-        "This is a mediaplayer. You can play the first song in the list. When the song is playing the CSS style is modified.",
-      languages: "'CSS', 'Html', 'CSS Flexbox', 'Javascript', 'audio'",
-      plink: "https://github.com/SofiaHjerpe/lexicon-mediaplayer",
+        "This is a planned planthood app made in Vue.js. The app is responsive and adapted for mobile.",
+      languages:
+        "'CSS', 'Html', 'CSS Flexbox', 'Javascript', 'Media queries', 'Vue.js', 'Vue methods', 'computed functions'",
+      plink: "https://github.com/SofiaHjerpe/planned-planthood",
       imageOne: mimg,
       imageTwo: mimg1,
       imageThree: mimg2,
       imageFour: mimg3,
+    },
+    {
+      id: 21,
+      title: "Todo List",
+      description:
+        "This is a todo list made in React.js. In the app you can add, delete, edit and sort todos. ",
+      languages:
+        "'CSS', 'Html', 'CSS Flexbox', 'Typescript', 'Media queries', 'React', 'useContext'",
+      plink: "https://github.com/SofiaHjerpe/exercise-react-todo-list",
+      imageOne: reactImg,
+      imageTwo: reactImg1,
+      imageThree: reactImg2,
+      imageFour: "",
+    },
+    {
+      id: 22,
+      title: "React radio",
+      description:
+        "This is a Radio app made in React.js. The app shows all the channels on Sveriges Radio. You can also see all the programs on a given channel. You can also visit each program to read more about it. The radio app is an ongoing project. ",
+      languages:
+        "'CSS', 'Html', 'CSS Flexbox', 'Typescript', 'React', 'useContext', 'useRoute', 'useParams', 'fetch', 'API:s'",
+      plink: "https://github.com/SofiaHjerpe/exercise-react-radio",
+      imageOne: radio1,
+      imageTwo: radio2,
+      imageThree: radio3,
+      imageFour: radio4,
+    },
+    {
+      id: 23,
+      title: "Sokoban",
+      description:
+        "At Lexicon IT-proffs we created a game in group. The game we created was called Sokoban. In the game the user can for example win, move up to the next level, lose and get a message, chose level, read instructions and get a score.",
+      languages:
+        "'CSS', 'Html', 'Typescript', 'React', 'useRoute', 'useParams'",
+      plink: "https://unicorn-sokoban.netlify.app/",
+      imageOne: sokoban,
+      imageTwo: sokoban1,
+      imageThree: sokoban2,
+      imageFour: sokoban3,
     },
   ],
 };

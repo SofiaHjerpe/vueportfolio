@@ -5,7 +5,7 @@
       
       <div class="branding">
         <h1 class="logo">Sofia Hjerpe</h1>
-         <p class="logo-text"> Junior Frontend developer</p>
+         <p class="logo-text">Frontend developer</p>
      </div>
          
 <div>
@@ -19,8 +19,7 @@
   <ul v-show="mobileNav" class="mobileN" >
     <li><router-link to="/">Home</router-link></li>
     <li><router-link  to="/about">About</router-link></li>
-    <li><router-link  to="/projects">Projects</router-link></li>
-      
+    <li ><router-link  to="/projects">Projects</router-link></li>    
 </ul>
 
 </transition>
