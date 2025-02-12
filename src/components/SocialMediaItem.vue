@@ -1,5 +1,5 @@
 <template>
-  <div :style="mobile ? 'margin-inline: 5em 0': ''">
+  <div :style="!mobile ? 'margin-inline: 0' : 'margin-inline: 5em 0'">
     <h3 class="heading" style="margin-inline: 0; white-space: nowrap">
       Social media
     </h3>
@@ -21,29 +21,10 @@
 
 export default {
   name: "socialmedia",
-  data() {
-    return {
-      mobile: false,
-      windowWidth: null,
-    };
-  },
-
-  created() {
-    window.addEventListener("load", this.checkScreen);
-    window.addEventListener("resize", this.checkScreen);
-  },
-
-  methods: {
-    checkScreen() {
-      this.windowWidth = window.innerWidth;
-      if (this.windowWidth <= 750) {
-        this.mobile = true;
-        return;
-      }
-      this.mobile = false;
-    },
-  },
-};
+  props: {
+    mobile: Boolean,
+  }
+}
 </script>
 
 

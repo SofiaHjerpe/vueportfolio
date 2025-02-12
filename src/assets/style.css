@@ -84,6 +84,7 @@ nav {
 }
 .mobileContainer {
   margin-inline: 0;
+  padding: 0;
 }
 
 .contact-alert {
@@ -97,9 +98,8 @@ nav {
 .project-item {
   display: flex;
   flex-direction: column;
-  margin-inline: 1em 0;
   background-color: #fff;
-  max-width: 100%;
+  max-width: 1200px;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -217,7 +217,7 @@ p {
 .project-container {
   display: flex;
   flex-direction: column;
-  width: 76%;
+  width: 100%;
 }
 .image-item {
   display: flex;
@@ -273,7 +273,7 @@ p {
   }
   .project-container {
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     font-size: 16px;
     overflow-x: hidden;
   }

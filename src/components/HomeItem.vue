@@ -7,42 +7,31 @@
       <p :class="!mobile ? 'the-welcome-text' : 'home-text'">
         My name is Sofia Hjerpe. Go to "About" to read more About me.
       </p>
-
       <img class="image" src="../assets/images/me.jpg" />
     </div>
-    <SocialMediaItem />
+    <SocialMediaItem :mobile="mobile" />
   </div>
 </template>
+
 <script>
 import SocialMediaItem from "./SocialMediaItem.vue";
 
 export default {
-  name: "about",
+  name: "/",
   components: {
     SocialMediaItem,
   },
-  data() {
-    return {
-      mobile: false,
-      windowWidth: null,
-    };
+ props: {
+  mobile: {
+    type: Boolean,
+    required: true,
   },
-
-  created() {
-    window.addEventListener("load", this.checkScreen);
-    window.addEventListener("resize", this.checkScreen);
+},
+watch: {
+  mobile(newVal) {
+    console.log("Mobile state changed:", newVal);
   },
-
-  methods: {
-    checkScreen() {
-      this.windowWidth = window.innerWidth;
-      if (this.windowWidth <= 750) {
-        this.mobile = true;
-        return;
-      }
-      this.mobile = false;
-    },
-  },
+},
 };
 </script>
 

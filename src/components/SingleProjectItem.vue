@@ -1,6 +1,6 @@
 <template>
     <h1 class="heading" style="margin-top: 6.25rem;margin-bottom: 0">{{title}}</h1>
-    <div class="project-item" style="margin-top: 1.2em">
+    <div class="project-item" :style="!mobile ? 'margin-top: 1.2em;margin-inline:0': 'margin-top: 1.2em;margin-inline:1em 0'">
        
         <h4 class="project-heading" >{{title}} </h4>
         <p class="project-description">Description: {{description }}</p>
@@ -36,6 +36,9 @@
 <script>
 import data from "./../data.js";
 export default {
+  props: {
+    mobile: Boolean
+  },
   data() {
     return {
       project: data.projects,

@@ -51,7 +51,7 @@
         <p>Best Regards, <br />
           Sofia Hjerpe</p>
       </div>
-      <SocialMediaItem />
+      <SocialMediaItem :mobile="mobile" />
     </div>
     <div class="bachelor">
       <h3 class="heading" style="margin-bottom: 0">Degree certificate</h3>
@@ -107,28 +107,11 @@ export default {
   components: {
     SocialMediaItem,
   },
-  data() {
-    return {
-      mobile: false,
-      windowWidth: null,
-    };
+  props: {
+    mobile: Boolean
   },
 
-  created() {
-    window.addEventListener("load", this.checkScreen);
-    window.addEventListener("resize", this.checkScreen);
-  },
-
-  methods: {
-    checkScreen() {
-      this.windowWidth = window.innerWidth;
-      if (this.windowWidth <= 750) {
-        this.mobile = true;
-        return;
-      }
-      this.mobile = false;
-    },
-  },
+ 
 };
 </script>
 
