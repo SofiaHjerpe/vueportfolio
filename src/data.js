@@ -70,33 +70,25 @@ import im14 from "./assets/images/todowebapic.jpg";
 import ima from "./assets/images/FizzbuzzView.jpg";
 import ima1 from "./assets/images/FizzBuzzCode.jpg";
 
-import imgIns from "./assets/images/imgIns.jpg";
-import imgIns1 from "./assets/images/imgIns2.jpg";
-import imgIns3 from "./assets/images/InsCode.jpg";
-
-import movImg from "./assets/images/moviecards1.jpg";
-import movImg2 from "./assets/images/moviecards2.jpg";
-import movImg3 from "./assets/images/moviecards3.jpg";
-import movImg4 from "./assets/images/moviecards4.jpg";
-
-import mimg from "./assets/images/plant1.jpg";
-import mimg1 from "./assets/images/plant2.jpg";
-import mimg2 from "./assets/images/pcode1.jpg";
-import mimg3 from "./assets/images/pcode2.jpg";
-
 import reactImg from "./assets/images/todoReact1.jpg";
 import reactImg1 from "./assets/images/todolist2.jpg";
 import reactImg2 from "./assets/images/todoListReact3.jpg";
-
-import radio1 from "./assets/images/radio1.jpg";
-import radio2 from "./assets/images/radio2.jpg";
-import radio3 from "./assets/images/radio3.jpg";
-import radio4 from "./assets/images/radio4.jpg";
 
 import sokoban from "./assets/images/sokoban.jpg"
 import sokoban1 from "./assets/images/sokoban1.jpg";
 import sokoban2 from "./assets/images/sokoban2.jpg";
 import sokoban3 from "./assets/images/sokoban3.jpg";
+
+import mem from "./assets/images/mem1.jpg"
+import mem1 from "./assets/images/mem2.jpg";
+import mem2 from "./assets/images/mem3.jpg";
+import mem3 from "./assets/images/mem4.jpg";
+
+import fakenews from "./assets/images/fakenews2.jpg"
+import fakenews2 from "./assets/images/fakenews3.jpg"
+import fakenews3 from "./assets/images/fakenewscode1.jpg"
+import fakenews4 from "./assets/images/fakenewscode2.jpg";
+
 
 
 export default {
@@ -264,7 +256,8 @@ export default {
       title: "Online store",
       description:
         "This is a Online store, OBS Not real. It is made in Vuejs and make it possible for the user to look at all the products together or one by one. The user can also buy a product. For font I use Lucida Sans. The app is adapted for mobile.",
-      languages: "'Javascript','Vue.js', 'Components', 'params', 'Css', 'Objects', 'LocalStorage'",
+      languages:
+        "'Javascript','Vue.js', 'Components', 'params', 'Css', 'Objects', 'LocalStorage'",
       plink: "https://github.com/SofiaHjerpe/onlinestore",
       imageOne: img1112,
       imageTwo: img1114,
@@ -288,7 +281,8 @@ export default {
       title: "Vue Blogg Api",
       description:
         "This is a front end application that gets the Api from C#. In this app I used fetch, a second fetch argument, I used types such as String and Datetime",
-      languages: "'C# Web API', 'SQL Server Management Studio', 'SQL', '.Net', 'Vuejs', 'Fetch'",
+      languages:
+        "'C# Web API', 'SQL Server Management Studio', 'SQL', '.Net', 'Vuejs', 'Fetch'",
       plink: "https://github.com/SofiaHjerpe/BloggApiApp",
       imageOne: im1,
       imageTwo: im2,
@@ -300,7 +294,8 @@ export default {
       title: "Vue Todo Api",
       description:
         "This is a front end application that gets the Api from C#. The Api code you can find at my github, the repository is called TodoWebApi. In this app I used fetch, I used types such as Boolean and Datetime. The user can watch all Todos, add a Todo, mark the Todo as Done and Delete the Todo.",
-      languages: "'C# Web API', 'SQL Server Management Studio', 'SQL', '.Net', 'Vuejs', 'Fetch'",
+      languages:
+        "'C# Web API', 'SQL Server Management Studio', 'SQL', '.Net', 'Vuejs', 'Fetch'",
       plink: "https://github.com/SofiaHjerpe/TodoApiApp",
       imageOne: im13,
       imageTwo: im12,
@@ -309,43 +304,6 @@ export default {
     },
     {
       id: 18,
-      title: "Insurance project- Lexicon",
-      description:
-        "In this app I have I have recreated an image of a website. The website is mobile friendly.",
-      languages: "'CSS', 'Html', 'Media queries'",
-      plink: "https://github.com/SofiaHjerpe/insurance-project",
-      imageOne: imgIns,
-      imageTwo: imgIns1,
-      imageThree: imgIns3,
-      imageFour: "",
-    },
-    {
-      id: 19,
-      title: "Movie Cards",
-      description:
-        "This is a website where you can add a movie card through a form. You can also delete the movie card by clicking on it.",
-      languages: "'CSS', 'Html', 'React', 'Props', 'useState', 'TypeScript'",
-      plink: "https://github.com/SofiaHjerpe/exercise-react-movie-cards",
-      imageOne: movImg,
-      imageTwo: movImg2,
-      imageThree: movImg3,
-      imageFour: movImg4,
-    },
-    {
-      id: 20,
-      title: "Planned planthood",
-      description:
-        "This is a planned planthood app made in Vue.js. The app is responsive and adapted for mobile.",
-      languages:
-        "'CSS', 'Html', 'CSS Flexbox', 'Javascript', 'Media queries', 'Vue.js', 'Vue methods', 'computed functions'",
-      plink: "https://github.com/SofiaHjerpe/planned-planthood",
-      imageOne: mimg,
-      imageTwo: mimg1,
-      imageThree: mimg2,
-      imageFour: mimg3,
-    },
-    {
-      id: 21,
       title: "Todo List",
       description:
         "This is a todo list made in React.js. In the app you can add, delete, edit and sort todos. ",
@@ -358,20 +316,7 @@ export default {
       imageFour: "",
     },
     {
-      id: 22,
-      title: "React radio",
-      description:
-        "This is a Radio app made in React.js. The app shows all the channels on Sveriges Radio. You can also see all the programs on a given channel. You can also visit each program to read more about it. The radio app is an ongoing project. ",
-      languages:
-        "'CSS', 'Html', 'CSS Flexbox', 'Typescript', 'React', 'useContext', 'useRoute', 'useParams', 'fetch', 'API:s'",
-      plink: "https://github.com/SofiaHjerpe/exercise-react-radio",
-      imageOne: radio1,
-      imageTwo: radio2,
-      imageThree: radio3,
-      imageFour: radio4,
-    },
-    {
-      id: 23,
+      id: 19,
       title: "Sokoban",
       description:
         "At Lexicon IT-proffs we created a game in group. The game we created was called Sokoban. In the game the user can for example win, move up to the next level, lose and get a message, chose level, read instructions and get a score.",
@@ -382,6 +327,30 @@ export default {
       imageTwo: sokoban1,
       imageThree: sokoban2,
       imageFour: sokoban3,
+    },
+    {
+      id: 20,
+      title: "Memory game",
+      description:
+        "At It högskolan we made a laboration in Python. We created a game and I chose to do a memory game. The player tried to remember a list of numbers and their order. Then the numbers got shuffeled and the player was supposed to type the numbers in the correct order.The game continues till the player types the numbers in the correct order.",
+      languages: "'Python'",
+      plink: "https://github.com/SofiaHjerpe/Pythonlab_memory",
+      imageOne: mem,
+      imageTwo: mem1,
+      imageThree: mem2,
+      imageFour: mem3,
+    },
+    {
+      id: 21,
+      title: "Fake news detection",
+      description:
+        "At It högskolan we built projects with AI and python.I wanted to create a system that distinguished real information from false information. The user shared a text and the program then determined whether it was “fake news” or not. The program could give a binary outcome. The problem I was trying to solve was a classification problem. 'Binary logistic regression' answered my problem well when I was looking to classify texts as fake or real. I wanted to use Logistic regression because the model would handle binary outcomes. As a user you paste your article in english or swedish in the terminal. The program then response with the prediction. After the prediction the user gets to paste a new article. ",
+      languages: "'Python', 'Scikit learn', 'train_test_split'",
+      plink: "https://github.com/SofiaHjerpe/fake-news-classification",
+      imageOne: fakenews,
+      imageTwo: fakenews2,
+      imageThree: fakenews3,
+      imageFour: fakenews4,
     },
   ],
 };

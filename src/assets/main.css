@@ -1,4 +1,4 @@
-@import './base.css';
+@import "./base.css";
 
 #app {
   max-width: 1300px;
@@ -9,13 +9,30 @@
 a,
 .green {
   text-decoration: none;
-  color: rgb(230, 230, 230),;
+  color: #000100c9;
   transition: 0.4s;
+}
+button a {
+  color: #f1ada7;
 }
 
 @media (hover: hover) {
+  .icons a:hover {
+    background-color: transparent;
+  }
   a:hover {
-    background-color: rgb(138, 168, 142, 0.5);
+    background-color: #c6cec7;
+  }
+
+  button:hover a {
+    background-color: transparent;
+    color: #651a13;
+  }
+  button:hover {
+    background-color: #f1ada7;
+  }
+  button:focus a {
+    color: #651a13;
   }
 }
 

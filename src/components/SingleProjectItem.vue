@@ -1,5 +1,7 @@
 <template>
-    <div class="project-item" style="margin-top: 6.25rem">
+    <h1 class="heading" style="margin-top: 6.25rem;margin-bottom: 0">{{title}}</h1>
+    <div class="project-item" style="margin-top: 1.2em">
+       
         <h4 class="project-heading" >{{title}} </h4>
         <p class="project-description">Description: {{description }}</p>
         <span class="project-link">Link: &nbsp; <a :href="plink">Link </a> </span>

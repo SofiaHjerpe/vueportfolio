@@ -5,7 +5,7 @@
       
       <div class="branding">
         <h1 class="logo">Sofia Hjerpe</h1>
-         <p class="logo-text">Frontend developer</p>
+         <p class="logo-text">Frontend developer, developer and UX/UI designer </p>
      </div>
          
 <div>
@@ -32,7 +32,7 @@
 
 </nav>
 
- <div @click="removeMobileView" style="display:flex; justify-content: space-around">
+ <div @click="removeMobileView" style="display:flex;" :class="mobile ? 'mobileContainer' : 'container'">
   
   <router-view> 
   
